@@ -498,7 +498,6 @@ function getIdentityMatrix(/* n */) {
  */
 function getIntervalArray(start, end) {
   const arr = new Array(end - start + 1).fill(1);
-
   const arr2 = [];
   arr.reduce((sum, item) => {
     arr2.push(sum);
